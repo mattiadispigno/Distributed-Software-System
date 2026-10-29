@@ -1,0 +1,39 @@
+# Project hidden directory
+hidden/
+
+# Environment variables
+.env
+.env.*
+*.env
+!.env.example
+
+# Gradle support and build files
+.gradle/
+build/
+**/build/
+**/.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+Client2/app/src/main/proto/greeter.proto
+
+# Python artifacts & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+
+# Runtime fault simulation state
+control/fault.txt
+
+# IDEs & System files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+

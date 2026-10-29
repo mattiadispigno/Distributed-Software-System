@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package greeter;
+
+option java_multiple_files = true;
+option java_package = "it.unibo.dss.greeter";
+option java_outer_classname = "GreeterProto";
+
+service GreeterService {
+  rpc Greet (GreetRequest) returns (GreetReply);
+}
+
+message GreetRequest {
+  string name = 1;
+}
+
+message GreetReply {
+  string message = 1;
+}

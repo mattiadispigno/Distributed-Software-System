@@ -1,0 +1,56 @@
+# Course lecture slides (root-level PDFs)
+/0*.pdf
+
+# Hidden working directories across assignments
+hidden/
+**/hidden/
+
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# Gradle caches, wrappers, and build directories
+.gradle/
+**/.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+**/app/src/main/proto/greeter.proto
+
+# Python virtual environments & bytecode caches
+.venv/
+venv/
+**/.venv/
+**/venv/
+ENV/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDEs, Language Servers & Editors
+.vscode/
+**/.vscode/
+.metals/
+**/.metals/
+.bloop/
+**/.bloop/
+.idea/
+**/.idea/
+*.iml
+*.swp
+*~
+
+# Operating System metadata
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Runtime fault simulation states
+**/control/fault.txt
+
+fabric_example
